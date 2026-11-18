@@ -1,0 +1,60 @@
+[0.008s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake /home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_cpp -DCMAKE_INSTALL_PREFIX=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp
+[0.039s] -- The C compiler identification is GNU 15.2.0
+[0.074s] -- The CXX compiler identification is GNU 15.2.0
+[0.078s] -- Detecting C compiler ABI info
+[0.110s] -- Detecting C compiler ABI info - done
+[0.117s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.118s] -- Detecting C compile features
+[0.118s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.158s] -- Detecting CXX compiler ABI info - done
+[0.165s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.165s] -- Detecting CXX compile features
+[0.165s] -- Detecting CXX compile features - done
+[0.170s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.303s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.323s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.327s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.380s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.381s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.396s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.432s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.484s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.485s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_cpp/include>
+[0.485s] -- Configured cppcheck exclude dirs and/or files: 
+[0.485s] -- Added test 'lint_cmake' to check CMake code style
+[0.485s] -- Added test 'uncrustify' to check C / C++ code style
+[0.485s] -- Configured uncrustify additional arguments: 
+[0.486s] -- Added test 'xmllint' to check XML markup files
+[0.486s] -- Configuring done (0.5s)
+[0.491s] -- Generating done (0.0s)
+[0.499s] -- Build files have been written to: /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp
+[0.504s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake /home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_cpp -DCMAKE_INSTALL_PREFIX=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp
+[0.505s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --build /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp -- -j32 -l32
+[0.521s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld_node.dir/src/helloworld_node.cpp.o[0m
+[2.127s] [100%] [1m[32mLinking CXX executable helloworld_node[0m
+[2.180s] [100%] Built target helloworld_node
+[2.184s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --build /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp -- -j32 -l32
+[2.187s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --install /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp
+[2.189s] -- Install configuration: ""
+[2.189s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld_node
+[2.189s] -- Set non-toolchain portion of runtime path of "/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld_node" to ""
+[2.189s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp
+[2.189s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp
+[2.189s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh
+[2.189s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv
+[2.189s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh
+[2.189s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv
+[2.189s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash
+[2.190s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.fish
+[2.190s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh
+[2.190s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh
+[2.190s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv
+[2.190s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv
+[2.190s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp
+[2.190s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake
+[2.190s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake
+[2.190s] -- Installing: /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml
+[2.191s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --install /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp

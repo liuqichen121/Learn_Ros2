@@ -1,0 +1,31 @@
+[0.707s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_service': AMENT_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_service build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/install.log --install-scripts $base/lib/learning_service --single-version-externally-managed install_data
+[0.783s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.783s]   warnings.warn(msg)
+[0.821s] running egg_info
+[0.828s] writing ../../build/learning_service/learning_service.egg-info/PKG-INFO
+[0.828s] writing dependency_links to ../../build/learning_service/learning_service.egg-info/dependency_links.txt
+[0.828s] writing entry points to ../../build/learning_service/learning_service.egg-info/entry_points.txt
+[0.828s] writing requirements to ../../build/learning_service/learning_service.egg-info/requires.txt
+[0.828s] writing top-level names to ../../build/learning_service/learning_service.egg-info/top_level.txt
+[0.843s] reading manifest file '../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[0.844s] writing manifest file '../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[0.844s] running build
+[0.844s] running build_py
+[0.844s] copying learning_service/service_object_client.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.844s] copying learning_service/service_adder_client.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.844s] copying learning_service/service_object_server.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.844s] copying learning_service/service_adder_server.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.844s] running install
+[0.847s] running install_lib
+[0.854s] running install_data
+[0.854s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/share/learning_service
+[0.854s] running install_egg_info
+[0.860s] removing '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service-0.0.0-py3.14.egg-info' (and everything under it)
+[0.860s] Copying ../../build/learning_service/learning_service.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service-0.0.0-py3.14.egg-info
+[0.861s] running install_scripts
+[0.898s] Installing service_adder_client script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/learning_service
+[0.898s] Installing service_adder_server script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/learning_service
+[0.898s] Installing service_object_client script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/learning_service
+[0.898s] Installing service_object_server script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/learning_service
+[0.899s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/install.log'
+[0.918s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_service' returned '0': AMENT_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_service build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/install.log --install-scripts $base/lib/learning_service --single-version-externally-managed install_data

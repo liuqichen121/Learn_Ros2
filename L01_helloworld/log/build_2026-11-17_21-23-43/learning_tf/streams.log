@@ -1,0 +1,49 @@
+[1.475s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_tf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/install.log --install-scripts $base/lib/learning_tf --single-version-externally-managed install_data
+[1.576s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.576s]   warnings.warn(msg)
+[1.627s] running egg_info
+[1.635s] creating ../../build/learning_tf/learning_tf.egg-info
+[1.636s] writing ../../build/learning_tf/learning_tf.egg-info/PKG-INFO
+[1.636s] writing dependency_links to ../../build/learning_tf/learning_tf.egg-info/dependency_links.txt
+[1.637s] writing entry points to ../../build/learning_tf/learning_tf.egg-info/entry_points.txt
+[1.637s] writing requirements to ../../build/learning_tf/learning_tf.egg-info/requires.txt
+[1.637s] writing top-level names to ../../build/learning_tf/learning_tf.egg-info/top_level.txt
+[1.637s] writing manifest file '../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[1.656s] reading manifest file '../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[1.657s] writing manifest file '../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[1.657s] running build
+[1.657s] running build_py
+[1.657s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf
+[1.657s] copying learning_tf/turtle_following.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf
+[1.657s] copying learning_tf/turtle_tf_broadcaster.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf
+[1.657s] copying learning_tf/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf
+[1.657s] copying learning_tf/static_tf_broadcaster.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf
+[1.657s] copying learning_tf/tf_listener.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf
+[1.657s] running install
+[1.660s] running install_lib
+[1.669s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf
+[1.669s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf/turtle_following.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf
+[1.669s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf/turtle_tf_broadcaster.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf
+[1.669s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf
+[1.669s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf/static_tf_broadcaster.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf
+[1.669s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build/lib/learning_tf/tf_listener.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf
+[1.670s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf/turtle_following.py to turtle_following.cpython-314.pyc
+[1.671s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf/turtle_tf_broadcaster.py to turtle_tf_broadcaster.cpython-314.pyc
+[1.671s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf/__init__.py to __init__.cpython-314.pyc
+[1.671s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf/static_tf_broadcaster.py to static_tf_broadcaster.cpython-314.pyc
+[1.671s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf/tf_listener.py to tf_listener.cpython-314.pyc
+[1.671s] running install_data
+[1.672s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/share/ament_index/resource_index/packages
+[1.672s] copying resource/learning_tf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/share/ament_index/resource_index/packages
+[1.672s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/share/learning_tf
+[1.672s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/share/learning_tf/launch
+[1.672s] copying launch/turtle_following_demo.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/share/learning_tf/launch
+[1.672s] running install_egg_info
+[1.682s] Copying ../../build/learning_tf/learning_tf.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages/learning_tf-0.0.0-py3.14.egg-info
+[1.683s] running install_scripts
+[1.731s] Installing static_tf_broadcaster script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/learning_tf
+[1.731s] Installing tf_listener script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/learning_tf
+[1.731s] Installing turtle_following script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/learning_tf
+[1.731s] Installing turtle_tf_broadcaster script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/learning_tf
+[1.732s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/install.log'
+[1.792s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_tf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_tf/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_tf/install.log --install-scripts $base/lib/learning_tf --single-version-externally-managed install_data

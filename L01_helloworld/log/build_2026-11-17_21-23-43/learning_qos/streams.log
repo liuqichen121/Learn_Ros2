@@ -1,0 +1,39 @@
+[1.472s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_qos': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_qos build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/install.log --install-scripts $base/lib/learning_qos --single-version-externally-managed install_data
+[1.579s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.579s]   warnings.warn(msg)
+[1.630s] running egg_info
+[1.638s] creating ../../build/learning_qos/learning_qos.egg-info
+[1.639s] writing ../../build/learning_qos/learning_qos.egg-info/PKG-INFO
+[1.639s] writing dependency_links to ../../build/learning_qos/learning_qos.egg-info/dependency_links.txt
+[1.640s] writing entry points to ../../build/learning_qos/learning_qos.egg-info/entry_points.txt
+[1.640s] writing requirements to ../../build/learning_qos/learning_qos.egg-info/requires.txt
+[1.640s] writing top-level names to ../../build/learning_qos/learning_qos.egg-info/top_level.txt
+[1.640s] writing manifest file '../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[1.658s] reading manifest file '../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[1.659s] writing manifest file '../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[1.659s] running build
+[1.659s] running build_py
+[1.659s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/build/lib/learning_qos
+[1.659s] copying learning_qos/qos_helloworld_sub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/build/lib/learning_qos
+[1.659s] copying learning_qos/qos_helloworld_pub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/build/lib/learning_qos
+[1.659s] copying learning_qos/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/build/lib/learning_qos
+[1.659s] running install
+[1.662s] running install_lib
+[1.671s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages/learning_qos
+[1.671s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/build/lib/learning_qos/qos_helloworld_sub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages/learning_qos
+[1.671s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/build/lib/learning_qos/qos_helloworld_pub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages/learning_qos
+[1.671s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/build/lib/learning_qos/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages/learning_qos
+[1.672s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages/learning_qos/qos_helloworld_sub.py to qos_helloworld_sub.cpython-314.pyc
+[1.672s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages/learning_qos/qos_helloworld_pub.py to qos_helloworld_pub.cpython-314.pyc
+[1.672s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages/learning_qos/__init__.py to __init__.cpython-314.pyc
+[1.673s] running install_data
+[1.673s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/share/ament_index/resource_index/packages
+[1.673s] copying resource/learning_qos -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/share/ament_index/resource_index/packages
+[1.673s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/share/learning_qos
+[1.673s] running install_egg_info
+[1.681s] Copying ../../build/learning_qos/learning_qos.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages/learning_qos-0.0.0-py3.14.egg-info
+[1.682s] running install_scripts
+[1.727s] Installing qos_helloworld_pub script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/learning_qos
+[1.727s] Installing qos_helloworld_sub script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/learning_qos
+[1.727s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/install.log'
+[1.809s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_qos' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_qos/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_qos build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_qos/install.log --install-scripts $base/lib/learning_qos --single-version-externally-managed install_data

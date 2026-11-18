@@ -1,0 +1,32 @@
+[0.433s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake /home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_node_cpp -DCMAKE_INSTALL_PREFIX=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node_cpp
+[0.940s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.940s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.940s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.940s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.940s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.940s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.940s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.940s] -- Configuring incomplete, errors occurred!
+[0.940s] [33mCMake Warning (author) at CMakeLists.txt:2 (project):
+[0.940s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.940s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.941s]   both commands.
+[0.941s] This warning is for project developers.  Use -Wno-author to suppress it.
+[0.941s] [0m
+[0.941s] [31mCMake Error at CMakeLists.txt:16 (ament_target_dependencies):
+[0.941s]   Unknown CMake command "ament_target_dependencies".
+[0.941s] 
+[0.941s] [0m
+[0.941s] [31mCMake Error in CMakeLists.txt:
+[0.941s]   No cmake_minimum_required command is present.  A line of code such as
+[0.941s] 
+[0.941s]     cmake_minimum_required(VERSION 4.5)
+[0.941s] 
+[0.941s]   should be added at the top of the file.  The version specified may be lower
+[0.942s]   if you wish to support older CMake versions for this project.  For more
+[0.942s]   information run "cmake --help-policy CMP0000".
+[0.942s] 
+[0.942s] [0m
+[0.944s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake /home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_node_cpp -DCMAKE_INSTALL_PREFIX=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node_cpp

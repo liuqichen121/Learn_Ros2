@@ -1,0 +1,47 @@
+[1.443s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_gazebo build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_gazebo/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_gazebo/install.log --install-scripts $base/lib/learning_gazebo --single-version-externally-managed install_data
+[1.539s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.540s]   warnings.warn(msg)
+[1.590s] running egg_info
+[1.598s] writing ../../build/learning_gazebo/learning_gazebo.egg-info/PKG-INFO
+[1.598s] writing dependency_links to ../../build/learning_gazebo/learning_gazebo.egg-info/dependency_links.txt
+[1.598s] writing requirements to ../../build/learning_gazebo/learning_gazebo.egg-info/requires.txt
+[1.599s] writing top-level names to ../../build/learning_gazebo/learning_gazebo.egg-info/top_level.txt
+[1.618s] reading manifest file '../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+[1.619s] writing manifest file '../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+[1.619s] running build
+[1.619s] running build_py
+[1.619s] running install
+[1.622s] running install_lib
+[1.633s] running install_data
+[1.633s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo
+[1.633s] copying launch/mbot_camera.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+[1.633s] copying launch/load_urdf_into_gazebo.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+[1.633s] copying launch/mbot_rgbd.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+[1.633s] copying launch/mbot_laser.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+[1.633s] copying launch/load_mbot_laser_into_gazebo.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+[1.633s] copying launch/load_mbot_rgbd_into_gazebo.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+[1.633s] copying launch/load_mbot_camera_into_gazebo.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+[1.633s] copying launch/mbot.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+[1.634s] copying urdf/mbot_with_rgbd_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+[1.634s] copying urdf/mbot_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+[1.634s] copying urdf/mbot_base_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+[1.634s] copying urdf/mbot_with_laser_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+[1.634s] copying urdf/mbot_with_camera_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+[1.634s] copying urdf/two_wheeled_robot_nav2.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+[1.634s] copying urdf/mbot_with_kinect_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+[1.634s] copying meshes/kinect.jpg -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/meshes
+[1.634s] copying meshes/kinect.dae -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/meshes
+[1.634s] copying meshes/kinect.tga -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/meshes
+[1.634s] copying urdf/sensors/lidar_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[1.634s] copying urdf/sensors/kinect_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[1.634s] copying urdf/sensors/rgbd_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[1.634s] copying urdf/sensors/camera_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[1.634s] copying worlds/neighborhood.world -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/worlds
+[1.635s] copying worlds/empty_world.model -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/worlds
+[1.635s] copying rviz/urdf_gazebo_config.rviz -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/rviz
+[1.635s] running install_egg_info
+[1.643s] removing '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/lib/python3.14/site-packages/learning_gazebo-0.0.0-py3.14.egg-info' (and everything under it)
+[1.643s] Copying ../../build/learning_gazebo/learning_gazebo.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/lib/python3.14/site-packages/learning_gazebo-0.0.0-py3.14.egg-info
+[1.644s] running install_scripts
+[1.698s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_gazebo/install.log'
+[1.781s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_gazebo build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_gazebo/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_gazebo/install.log --install-scripts $base/lib/learning_gazebo --single-version-externally-managed install_data

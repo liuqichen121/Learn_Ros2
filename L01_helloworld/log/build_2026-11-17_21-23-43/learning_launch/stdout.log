@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/learning_launch/learning_launch.egg-info
+writing ../../build/learning_launch/learning_launch.egg-info/PKG-INFO
+writing dependency_links to ../../build/learning_launch/learning_launch.egg-info/dependency_links.txt
+writing requirements to ../../build/learning_launch/learning_launch.egg-info/requires.txt
+writing top-level names to ../../build/learning_launch/learning_launch.egg-info/top_level.txt
+writing manifest file '../../build/learning_launch/learning_launch.egg-info/SOURCES.txt'
+reading manifest file '../../build/learning_launch/learning_launch.egg-info/SOURCES.txt'
+writing manifest file '../../build/learning_launch/learning_launch.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/build/lib/learning_launch
+copying learning_launch/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/build/lib/learning_launch
+running install
+running install_lib
+creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages/learning_launch
+copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/build/lib/learning_launch/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages/learning_launch
+byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages/learning_launch/__init__.py to __init__.cpython-314.pyc
+running install_data
+creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/ament_index/resource_index/packages
+copying resource/learning_launch -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/ament_index/resource_index/packages
+copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch
+creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+copying launch/parameters_nonamespace.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+copying launch/parameters.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+copying launch/simple.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+copying launch/rviz.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+copying launch/namespaces.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+copying launch/remapping.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+copying launch/parameters_yaml.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/config
+copying config/turtlesim.yaml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/config
+creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/rviz
+copying rviz/turtle_rviz.rviz -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/rviz
+running install_egg_info
+Copying ../../build/learning_launch/learning_launch.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages/learning_launch-0.0.0-py3.14.egg-info
+running install_scripts
+writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/install.log'

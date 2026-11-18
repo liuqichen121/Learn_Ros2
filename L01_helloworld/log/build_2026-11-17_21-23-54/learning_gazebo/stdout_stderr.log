@@ -1,0 +1,45 @@
+/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/learning_gazebo/learning_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/learning_gazebo/learning_gazebo.egg-info/dependency_links.txt
+writing requirements to ../../build/learning_gazebo/learning_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/learning_gazebo/learning_gazebo.egg-info/top_level.txt
+reading manifest file '../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo
+copying launch/mbot_camera.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+copying launch/load_urdf_into_gazebo.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+copying launch/mbot_rgbd.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+copying launch/mbot_laser.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+copying launch/load_mbot_laser_into_gazebo.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+copying launch/load_mbot_rgbd_into_gazebo.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+copying launch/load_mbot_camera_into_gazebo.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+copying launch/mbot.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/launch
+copying urdf/mbot_with_rgbd_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+copying urdf/mbot_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+copying urdf/mbot_base_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+copying urdf/mbot_with_laser_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+copying urdf/mbot_with_camera_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+copying urdf/two_wheeled_robot_nav2.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+copying urdf/mbot_with_kinect_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf
+copying meshes/kinect.jpg -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/meshes
+copying meshes/kinect.dae -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/meshes
+copying meshes/kinect.tga -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/meshes
+copying urdf/sensors/lidar_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+copying urdf/sensors/kinect_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+copying urdf/sensors/rgbd_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+copying urdf/sensors/camera_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+copying worlds/neighborhood.world -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/worlds
+copying worlds/empty_world.model -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/worlds
+copying rviz/urdf_gazebo_config.rviz -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/share/learning_gazebo/rviz
+running install_egg_info
+removing '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/lib/python3.14/site-packages/learning_gazebo-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/learning_gazebo/learning_gazebo.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_gazebo/lib/python3.14/site-packages/learning_gazebo-0.0.0-py3.14.egg-info
+running install_scripts
+writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_gazebo/install.log'

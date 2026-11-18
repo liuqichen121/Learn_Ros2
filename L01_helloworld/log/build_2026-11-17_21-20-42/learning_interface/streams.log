@@ -1,0 +1,92 @@
+[0.042s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --build /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface -- -j32 -l32
+[1.121s] [  1%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[1.122s] [  3%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[1.122s] [  3%] Built target learning_interface__rosidl_generator_type_description
+[1.122s] [  4%] [1m[34mGenerating C code for ROS interfaces[0m
+[1.123s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[1.124s] [  6%] Built target learning_interface__rs
+[1.125s] [  6%] Built target learning_interface__cpp
+[1.125s] [ 10%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/msg/detail/object_position__description.c.o[0m
+[1.125s] [ 10%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/msg/detail/object_position__functions.c.o[0m
+[1.125s] [ 10%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/msg/detail/object_position__type_support.c.o[0m
+[1.125s] [ 20%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/srv/detail/get_object_position__functions.c.o[0m
+[1.126s] [ 20%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/srv/detail/get_object_position__type_support.c.o[0m
+[1.126s] [ 20%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/srv/detail/add_two_ints__type_support.c.o[0m
+[1.126s] [ 20%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/srv/detail/add_two_ints__description.c.o[0m
+[1.126s] [ 20%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/srv/detail/get_object_position__description.c.o[0m
+[1.126s] [ 20%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/srv/detail/add_two_ints__functions.c.o[0m
+[1.126s] [ 24%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/action/detail/move_circle__functions.c.o[0m
+[1.126s] [ 24%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/action/detail/move_circle__description.c.o[0m
+[1.127s] [ 24%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_c.dir/rosidl_generator_c/learning_interface/action/detail/move_circle__type_support.c.o[0m
+[1.127s] [ 26%] [1m[32mLinking C shared library liblearning_interface__rosidl_generator_c.so[0m
+[1.127s] [ 26%] Built target learning_interface__rosidl_generator_c
+[1.127s] [ 32%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[1.127s] [ 32%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[1.127s] [ 32%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.127s] [ 33%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[1.127s] [ 33%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[1.127s] [ 40%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learning_interface/srv/add_two_ints__type_support.cpp.o[0m
+[1.127s] [ 40%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learning_interface/action/move_circle__type_support.cpp.o[0m
+[1.127s] [ 40%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learning_interface/srv/get_object_position__type_support.cpp.o[0m
+[1.127s] [ 40%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learning_interface/msg/object_position__type_support.cpp.o[0m
+[1.127s] [ 43%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learning_interface/action/move_circle__type_support.cpp.o[0m
+[1.127s] [ 43%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learning_interface/msg/object_position__type_support.cpp.o[0m
+[1.127s] [ 46%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learning_interface/srv/get_object_position__type_support.cpp.o[0m
+[1.127s] [ 46%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learning_interface/srv/add_two_ints__type_support.cpp.o[0m
+[1.127s] [ 47%] [1m[32mLinking CXX shared library liblearning_interface__rosidl_typesupport_c.so[0m
+[1.127s] [ 47%] Built target learning_interface__rosidl_typesupport_c
+[1.127s] [ 49%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learning_interface/srv/detail/get_object_position__type_support.cpp.o[0m
+[1.127s] [ 53%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learning_interface/msg/detail/object_position__type_support.cpp.o[0m
+[1.127s] [ 53%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learning_interface/srv/detail/add_two_ints__type_support.cpp.o[0m
+[1.127s] [ 53%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learning_interface/action/detail/move_circle__type_support.cpp.o[0m
+[1.127s] [ 58%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learning_interface/srv/detail/add_two_ints__type_support.c.o[0m
+[1.127s] [ 58%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learning_interface/msg/detail/object_position__type_support.c.o[0m
+[1.127s] [ 58%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learning_interface/action/detail/move_circle__type_support.c.o[0m
+[1.127s] [ 60%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learning_interface/srv/detail/get_object_position__type_support.c.o[0m
+[1.128s] [ 61%] [1m[32mLinking C shared library liblearning_interface__rosidl_typesupport_introspection_c.so[0m
+[1.128s] [ 61%] Built target learning_interface__rosidl_typesupport_introspection_c
+[1.239s] [ 66%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learning_interface/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[1.239s] [ 66%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learning_interface/srv/detail/get_object_position__type_support_c.cpp.o[0m
+[1.239s] [ 66%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learning_interface/msg/detail/object_position__type_support_c.cpp.o[0m
+[1.239s] [ 67%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learning_interface/action/detail/move_circle__type_support_c.cpp.o[0m
+[1.441s] [ 69%] [1m[32mLinking CXX shared library liblearning_interface__rosidl_typesupport_cpp.so[0m
+[1.492s] [ 69%] Built target learning_interface__rosidl_typesupport_cpp
+[1.574s] [ 70%] [1m[32mLinking CXX shared library liblearning_interface__rosidl_typesupport_introspection_cpp.so[0m
+[1.623s] [ 70%] Built target learning_interface__rosidl_typesupport_introspection_cpp
+[1.684s] [ 72%] [1m[32mLinking CXX shared library liblearning_interface__rosidl_typesupport_fastrtps_c.so[0m
+[1.707s] [ 72%] Built target learning_interface__rosidl_typesupport_fastrtps_c
+[1.710s] [ 73%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.089s] [ 75%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learning_interface/msg/detail/dds_fastrtps/object_position__type_support.cpp.o[0m
+[2.089s] [ 76%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learning_interface/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[2.089s] [ 78%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learning_interface/srv/detail/dds_fastrtps/get_object_position__type_support.cpp.o[0m
+[2.090s] [ 80%] [32mBuilding CXX object CMakeFiles/learning_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learning_interface/action/detail/dds_fastrtps/move_circle__type_support.cpp.o[0m
+[2.653s] [ 81%] [1m[32mLinking CXX shared library liblearning_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.690s] [ 81%] Built target learning_interface__rosidl_typesupport_fastrtps_cpp
+[2.696s] [ 81%] Built target learning_interface
+[2.701s] [ 83%] [1m[34mGenerating Python code for ROS interfaces[0m
+[3.384s] [ 83%] Built target learning_interface__py
+[3.390s] [ 84%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_py.dir/rosidl_generator_py/learning_interface/msg/_object_position_s.c.o[0m
+[3.390s] [ 86%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_py.dir/rosidl_generator_py/learning_interface/srv/_add_two_ints_s.c.o[0m
+[3.390s] [ 87%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_py.dir/rosidl_generator_py/learning_interface/action/_move_circle_s.c.o[0m
+[3.390s] [ 89%] [32mBuilding C object CMakeFiles/learning_interface__rosidl_generator_py.dir/rosidl_generator_py/learning_interface/srv/_get_object_position_s.c.o[0m
+[3.392s] [ 89%] Built target ament_cmake_python_sync_learning_interface
+[3.510s] [ 90%] [1m[32mLinking C shared library liblearning_interface__rosidl_generator_py.so[0m
+[3.516s] running egg_info
+[3.523s] creating learning_interface.egg-info
+[3.523s] writing learning_interface.egg-info/PKG-INFO
+[3.524s] writing dependency_links to learning_interface.egg-info/dependency_links.txt
+[3.524s] writing top-level names to learning_interface.egg-info/top_level.txt
+[3.524s] writing manifest file 'learning_interface.egg-info/SOURCES.txt'
+[3.532s] [ 90%] Built target learning_interface__rosidl_generator_py
+[3.539s] [ 95%] [32mBuilding C object CMakeFiles/learning_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/learning_interface/_learning_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.539s] [ 95%] [32mBuilding C object CMakeFiles/learning_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/learning_interface/_learning_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.539s] [ 95%] [32mBuilding C object CMakeFiles/learning_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/learning_interface/_learning_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[3.548s] reading manifest file 'learning_interface.egg-info/SOURCES.txt'
+[3.548s] writing manifest file 'learning_interface.egg-info/SOURCES.txt'
+[3.576s] [ 95%] Built target ament_cmake_python_build_learning_interface_egg
+[3.621s] [100%] [1m[32mLinking C shared module rosidl_generator_py/learning_interface/learning_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.621s] [100%] [1m[32mLinking C shared module rosidl_generator_py/learning_interface/learning_interface_s__rosidl_typesupport_c.so[0m
+[3.622s] [100%] [1m[32mLinking C shared module rosidl_generator_py/learning_interface/learning_interface_s__rosidl_typesupport_introspection_c.so[0m
+[3.634s] [100%] Built target learning_interface_s__rosidl_typesupport_c
+[3.634s] [100%] Built target learning_interface_s__rosidl_typesupport_fastrtps_c
+[3.634s] [100%] Built target learning_interface_s__rosidl_typesupport_introspection_c

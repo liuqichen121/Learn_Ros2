@@ -1,0 +1,30 @@
+[1.479s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_pkg_python': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_python/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_pkg_python build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/install.log --install-scripts $base/lib/learning_pkg_python --single-version-externally-managed install_data
+[1.586s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.586s]   warnings.warn(msg)
+[1.646s] running egg_info
+[1.657s] creating ../../build/learning_pkg_python/learning_pkg_python.egg-info
+[1.658s] writing ../../build/learning_pkg_python/learning_pkg_python.egg-info/PKG-INFO
+[1.658s] writing dependency_links to ../../build/learning_pkg_python/learning_pkg_python.egg-info/dependency_links.txt
+[1.658s] writing requirements to ../../build/learning_pkg_python/learning_pkg_python.egg-info/requires.txt
+[1.658s] writing top-level names to ../../build/learning_pkg_python/learning_pkg_python.egg-info/top_level.txt
+[1.658s] writing manifest file '../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[1.681s] reading manifest file '../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[1.682s] writing manifest file '../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[1.682s] running build
+[1.682s] running build_py
+[1.682s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/build/lib/learning_pkg_python
+[1.682s] copying learning_pkg_python/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/build/lib/learning_pkg_python
+[1.682s] running install
+[1.685s] running install_lib
+[1.692s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_python/lib/python3.14/site-packages/learning_pkg_python
+[1.693s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/build/lib/learning_pkg_python/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_python/lib/python3.14/site-packages/learning_pkg_python
+[1.693s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_python/lib/python3.14/site-packages/learning_pkg_python/__init__.py to __init__.cpython-314.pyc
+[1.693s] running install_data
+[1.693s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_python/share/ament_index/resource_index/packages
+[1.694s] copying resource/learning_pkg_python -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_python/share/ament_index/resource_index/packages
+[1.694s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_python/share/learning_pkg_python
+[1.694s] running install_egg_info
+[1.702s] Copying ../../build/learning_pkg_python/learning_pkg_python.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_python/lib/python3.14/site-packages/learning_pkg_python-0.0.0-py3.14.egg-info
+[1.702s] running install_scripts
+[1.753s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/install.log'
+[1.837s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_pkg_python' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_python/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_pkg_python build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_pkg_python/install.log --install-scripts $base/lib/learning_pkg_python --single-version-externally-managed install_data

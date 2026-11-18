@@ -1,0 +1,25 @@
+[1.492s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_cv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_cv build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/install.log --install-scripts $base/lib/learning_cv --single-version-externally-managed install_data
+[1.595s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.595s]   warnings.warn(msg)
+[1.649s] running egg_info
+[1.657s] writing ../../build/learning_cv/learning_cv.egg-info/PKG-INFO
+[1.657s] writing dependency_links to ../../build/learning_cv/learning_cv.egg-info/dependency_links.txt
+[1.657s] writing entry points to ../../build/learning_cv/learning_cv.egg-info/entry_points.txt
+[1.657s] writing requirements to ../../build/learning_cv/learning_cv.egg-info/requires.txt
+[1.657s] writing top-level names to ../../build/learning_cv/learning_cv.egg-info/top_level.txt
+[1.676s] reading manifest file '../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+[1.676s] writing manifest file '../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+[1.676s] running build
+[1.676s] running build_py
+[1.677s] copying learning_cv/cv_bridge_test.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv
+[1.677s] running install
+[1.680s] running install_lib
+[1.691s] running install_data
+[1.691s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv
+[1.691s] running install_egg_info
+[1.700s] removing '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv-0.0.0-py3.14.egg-info' (and everything under it)
+[1.701s] Copying ../../build/learning_cv/learning_cv.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv-0.0.0-py3.14.egg-info
+[1.701s] running install_scripts
+[1.745s] Installing cv_bridge_test script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/learning_cv
+[1.745s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/install.log'
+[1.829s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_cv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_cv build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/install.log --install-scripts $base/lib/learning_cv --single-version-externally-managed install_data

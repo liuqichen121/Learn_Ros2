@@ -1,0 +1,31 @@
+[0.283s] Invoking command in '/home/liuqichen121/Learn_Ros2/S01_CV/src/opencv_camera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_camera build --build-base /home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/build install --record /home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/install.log --install-scripts $base/lib/opencv_camera --single-version-externally-managed install_data
+[0.388s] running egg_info
+[0.393s] writing ../../build/opencv_camera/opencv_camera.egg-info/PKG-INFO
+[0.393s] writing dependency_links to ../../build/opencv_camera/opencv_camera.egg-info/dependency_links.txt
+[0.393s] writing entry points to ../../build/opencv_camera/opencv_camera.egg-info/entry_points.txt
+[0.393s] writing requirements to ../../build/opencv_camera/opencv_camera.egg-info/requires.txt
+[0.394s] writing top-level names to ../../build/opencv_camera/opencv_camera.egg-info/top_level.txt
+[0.406s] reading manifest file '../../build/opencv_camera/opencv_camera.egg-info/SOURCES.txt'
+[0.406s] writing manifest file '../../build/opencv_camera/opencv_camera.egg-info/SOURCES.txt'
+[0.406s] running build
+[0.407s] running build_py
+[0.407s] copying opencv_camera/camera_publisher.py -> /home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/build/lib/opencv_camera
+[0.407s] copying opencv_camera/camera_viewer.py -> /home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/build/lib/opencv_camera
+[0.407s] copying opencv_camera/__init__.py -> /home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/build/lib/opencv_camera
+[0.407s] running install
+[0.409s] running install_lib
+[0.415s] copying /home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/build/lib/opencv_camera/camera_publisher.py -> /home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/lib/python3.14/site-packages/opencv_camera
+[0.416s] byte-compiling /home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/lib/python3.14/site-packages/opencv_camera/camera_publisher.py to camera_publisher.cpython-314.pyc
+[0.417s] running install_data
+[0.417s] copying resource/opencv_camera -> /home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/share/ament_index/resource_index/packages
+[0.417s] copying package.xml -> /home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/share/opencv_camera
+[0.417s] copying README.md -> /home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/share/opencv_camera
+[0.417s] copying launch/camera.launch.py -> /home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/share/opencv_camera/launch
+[0.417s] running install_egg_info
+[0.423s] removing '/home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/lib/python3.14/site-packages/opencv_camera-0.1.0-py3.14.egg-info' (and everything under it)
+[0.423s] Copying ../../build/opencv_camera/opencv_camera.egg-info to /home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/lib/python3.14/site-packages/opencv_camera-0.1.0-py3.14.egg-info
+[0.424s] running install_scripts
+[0.458s] Installing camera_publisher script to /home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/lib/opencv_camera
+[0.458s] Installing camera_viewer script to /home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/lib/opencv_camera
+[0.458s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/install.log'
+[0.475s] Invoked command in '/home/liuqichen121/Learn_Ros2/S01_CV/src/opencv_camera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/S01_CV/install/opencv_camera/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_camera build --build-base /home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/build install --record /home/liuqichen121/Learn_Ros2/S01_CV/build/opencv_camera/install.log --install-scripts $base/lib/opencv_camera --single-version-externally-managed install_data

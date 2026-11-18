@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

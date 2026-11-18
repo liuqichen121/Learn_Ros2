@@ -1,0 +1,46 @@
+[0.738s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_service': AMENT_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_service build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/install.log --install-scripts $base/lib/learning_service --single-version-externally-managed install_data
+[0.824s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.824s]   warnings.warn(msg)
+[0.863s] running egg_info
+[0.870s] creating ../../build/learning_service/learning_service.egg-info
+[0.870s] writing ../../build/learning_service/learning_service.egg-info/PKG-INFO
+[0.870s] writing dependency_links to ../../build/learning_service/learning_service.egg-info/dependency_links.txt
+[0.870s] writing entry points to ../../build/learning_service/learning_service.egg-info/entry_points.txt
+[0.870s] writing requirements to ../../build/learning_service/learning_service.egg-info/requires.txt
+[0.870s] writing top-level names to ../../build/learning_service/learning_service.egg-info/top_level.txt
+[0.870s] writing manifest file '../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[0.885s] reading manifest file '../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[0.886s] writing manifest file '../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[0.886s] running build
+[0.886s] running build_py
+[0.886s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.886s] copying learning_service/service_object_client.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.886s] copying learning_service/service_adder_client.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.886s] copying learning_service/service_object_server.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.886s] copying learning_service/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.886s] copying learning_service/service_adder_server.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service
+[0.886s] running install
+[0.888s] running install_lib
+[0.895s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service
+[0.896s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service/service_object_client.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service
+[0.896s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service/service_adder_client.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service
+[0.896s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service/service_object_server.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service
+[0.897s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service
+[0.897s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/build/lib/learning_service/service_adder_server.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service
+[0.897s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service/service_object_client.py to service_object_client.cpython-314.pyc
+[0.897s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service/service_adder_client.py to service_adder_client.cpython-314.pyc
+[0.897s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service/service_object_server.py to service_object_server.cpython-314.pyc
+[0.897s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service/__init__.py to __init__.cpython-314.pyc
+[0.897s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service/service_adder_server.py to service_adder_server.cpython-314.pyc
+[0.897s] running install_data
+[0.898s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/share/ament_index/resource_index/packages
+[0.898s] copying resource/learning_service -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/share/ament_index/resource_index/packages
+[0.898s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/share/learning_service
+[0.898s] running install_egg_info
+[0.905s] Copying ../../build/learning_service/learning_service.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/python3.14/site-packages/learning_service-0.0.0-py3.14.egg-info
+[0.905s] running install_scripts
+[0.946s] Installing service_adder_client script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/learning_service
+[0.947s] Installing service_adder_server script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/learning_service
+[0.947s] Installing service_object_client script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/learning_service
+[0.947s] Installing service_object_server script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_service/lib/learning_service
+[0.947s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_service/install.log'

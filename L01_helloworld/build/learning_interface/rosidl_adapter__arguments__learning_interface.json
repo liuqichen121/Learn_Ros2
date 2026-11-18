@@ -1,0 +1,9 @@
+{
+  "package_name": "learning_interface",
+  "non_idl_tuples": [
+    "/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_interface:msg/ObjectPosition.msg",
+    "/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_interface:srv/AddTwoInts.srv",
+    "/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_interface:srv/GetObjectPosition.srv",
+    "/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_interface:action/MoveCircle.action"
+  ]
+}

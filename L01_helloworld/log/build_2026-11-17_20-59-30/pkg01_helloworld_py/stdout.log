@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/dependency_links.txt
+writing entry points to ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/entry_points.txt
+writing requirements to ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/requires.txt
+writing top-level names to ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/top_level.txt
+reading manifest file '../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pkg01_helloworld_py/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py
+copying pkg01_helloworld_py/helloworld_node.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py
+copying pkg01_helloworld_py/py.typed -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py
+running install
+running install_lib
+running install_data
+copying resource/pkg01_helloworld_py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py
+running install_egg_info
+removing '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages/pkg01_helloworld_py-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages/pkg01_helloworld_py-0.0.0-py3.14.egg-info
+running install_scripts
+Installing helloworld_node script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/pkg01_helloworld_py
+writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/install.log'

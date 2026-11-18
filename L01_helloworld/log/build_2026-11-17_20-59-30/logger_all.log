@@ -1,0 +1,294 @@
+[-1794920368977565184.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[-1794920368977565184.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7318a9ed8050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7318aa12b4d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7318aa12b4d0>>, mixin_verb=('build',))
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-1794920368977565184.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/liuqichen121/Learn_Ros2/L01_helloworld'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_cv) by extensions ['ignore', 'ignore_ament_install']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_cv) by extension 'ignore'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_cv) by extension 'ignore_ament_install'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_cv) by extensions ['colcon_pkg']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_cv) by extension 'colcon_pkg'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_cv) by extensions ['colcon_meta']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_cv) by extension 'colcon_meta'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_cv) by extensions ['ros']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_cv) by extension 'ros'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_cv' with type 'ros.ament_python' and name 'learning_cv'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extensions ['ignore', 'ignore_ament_install']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extension 'ignore'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extension 'ignore_ament_install'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extensions ['colcon_pkg']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extension 'colcon_pkg'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extensions ['colcon_meta']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extension 'colcon_meta'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extensions ['ros']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extension 'ros'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_node' with type 'ros.ament_python' and name 'learning_node'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extensions ['ignore', 'ignore_ament_install']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'ignore'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'ignore_ament_install'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extensions ['colcon_pkg']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'colcon_pkg'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extensions ['colcon_meta']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'colcon_meta'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extensions ['ros']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'ros'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg01_helloworld_cpp' with type 'ros.ament_cmake' and name 'pkg01_helloworld_cpp'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_py) by extensions ['ignore', 'ignore_ament_install']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_py) by extension 'ignore'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_py) by extension 'ignore_ament_install'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_py) by extensions ['colcon_pkg']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_py) by extension 'colcon_pkg'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_py) by extensions ['colcon_meta']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_py) by extension 'colcon_meta'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_py) by extensions ['ros']
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_py) by extension 'ros'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg01_helloworld_py' with type 'ros.ament_python' and name 'pkg01_helloworld_py'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[-1794920368977565184.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/liuqichen121/Learn_Ros2/L01_helloworld/install
+[-1794920368977565184.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/lyrical
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_target' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_clean_cache' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_clean_first' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_force_configure' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'ament_cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'catkin_cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.verb:Building package 'learning_cv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv', 'merge_install': False, 'path': '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_cv', 'symlink_install': False, 'test_result_base': None}
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_cache' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_first' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_force_configure' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'ament_cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.verb:Building package 'learning_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node', 'merge_install': False, 'path': '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_node', 'symlink_install': False, 'test_result_base': None}
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_target' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.verb:Building package 'pkg01_helloworld_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp', 'merge_install': False, 'path': '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_cpp', 'symlink_install': False, 'test_result_base': None}
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_py' build argument 'cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_py' build argument 'cmake_target' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_py' build argument 'cmake_clean_cache' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_py' build argument 'cmake_clean_first' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_py' build argument 'cmake_force_configure' from command line to 'False'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_py' build argument 'ament_cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_py' build argument 'catkin_cmake_args' from command line to 'None'
+[-1794920368977565184.000s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.verb:Building package 'pkg01_helloworld_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py', 'merge_install': False, 'path': '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_py', 'symlink_install': False, 'test_result_base': None}
+[-1794920368977565184.000s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-1794920368977565184.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-1794920368977565184.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_cv' with build type 'ament_python'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_cv', 'ament_prefix_path')
+[-1794920368977565184.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/hook/ament_prefix_path.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/hook/ament_prefix_path.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/hook/ament_prefix_path.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1794920368977565184.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_node' with build type 'ament_python'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node', 'ament_prefix_path')
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/hook/ament_prefix_path.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/hook/ament_prefix_path.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/hook/ament_prefix_path.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1794920368977565184.000s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_cpp' with build type 'ament_cmake'
+[-1794920368977565184.000s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_cpp'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1794920368977565184.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_py' with build type 'ament_python'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg01_helloworld_py', 'ament_prefix_path')
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/hook/ament_prefix_path.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/hook/ament_prefix_path.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/hook/ament_prefix_path.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1794920368977565184.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_cv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1794920368977565184.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_node'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --build /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp -- -j32 -l32
+[-1794920368977565184.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_py'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --build /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp -- -j32 -l32
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --install /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg01_helloworld_cpp)
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --install /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp' for CMake module files
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp' for CMake config files
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg01_helloworld_cpp', 'cmake_prefix_path')
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.sh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/lib'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/bin'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/lib/pkgconfig/pkg01_helloworld_cpp.pc'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/lib/python3.14/site-packages'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/bin'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.bash'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.zsh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/colcon-core/packages/pkg01_helloworld_cpp)
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg01_helloworld_cpp)
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp' for CMake module files
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp' for CMake config files
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg01_helloworld_cpp', 'cmake_prefix_path')
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.sh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/lib'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/bin'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/lib/pkgconfig/pkg01_helloworld_cpp.pc'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/lib/python3.14/site-packages'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/bin'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.bash'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.zsh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_cpp/share/colcon-core/packages/pkg01_helloworld_cpp)
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_clib, check, editable_wheel, rotate, build_py, init_catalog, compile_catalog, sdist, dist_info, bdist_dumb, update_catalog, build, install_headers, install_egg_info, build_ext, alias, setopt, extract_messages, clean, build_scripts, bdist, symlink_data, install, bdist_egg, install_data, bdist_rpm, install_scripts, saveopts, install_lib, develop, easy_install, egg_info, bdist_wheel
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_node build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/install.log --install-scripts $base/lib/learning_node --single-version-externally-managed install_data
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_clib, check, editable_wheel, rotate, build_py, init_catalog, compile_catalog, sdist, dist_info, bdist_dumb, update_catalog, build, install_headers, install_egg_info, build_ext, alias, setopt, extract_messages, clean, build_scripts, bdist, symlink_data, install, bdist_egg, install_data, bdist_rpm, install_scripts, saveopts, install_lib, develop, easy_install, egg_info, bdist_wheel
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_cv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_cv build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/install.log --install-scripts $base/lib/learning_cv --single-version-externally-managed install_data
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_clib, check, editable_wheel, rotate, build_py, init_catalog, compile_catalog, sdist, dist_info, bdist_dumb, update_catalog, build, install_headers, install_egg_info, build_ext, alias, setopt, extract_messages, clean, build_scripts, bdist, symlink_data, install, bdist_egg, install_data, bdist_rpm, install_scripts, saveopts, install_lib, develop, easy_install, egg_info, bdist_wheel
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg01_helloworld_py build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/install.log --install-scripts $base/lib/pkg01_helloworld_py --single-version-externally-managed install_data
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv' for CMake module files
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_cv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_cv build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/install.log --install-scripts $base/lib/learning_cv --single-version-externally-managed install_data
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv' for CMake config files
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/bin'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/pkgconfig/learning_cv.pc'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_cv', 'pythonpath')
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/hook/pythonpath.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/hook/pythonpath.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/hook/pythonpath.sh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/bin'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_cv)
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/package.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/package.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/package.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/package.bash'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv/package.zsh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/colcon-core/packages/learning_cv)
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py' for CMake module files
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg01_helloworld_py build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/install.log --install-scripts $base/lib/pkg01_helloworld_py --single-version-externally-managed install_data
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py' for CMake config files
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/bin'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/pkgconfig/pkg01_helloworld_py.pc'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg01_helloworld_py', 'pythonpath')
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/hook/pythonpath.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/hook/pythonpath.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/hook/pythonpath.sh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/bin'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg01_helloworld_py)
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/package.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/package.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/package.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/package.bash'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py/package.zsh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/colcon-core/packages/pkg01_helloworld_py)
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node' for CMake module files
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_node build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/install.log --install-scripts $base/lib/learning_node --single-version-externally-managed install_data
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node' for CMake config files
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/bin'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/pkgconfig/learning_node.pc'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/python3.14/site-packages'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node', 'pythonpath')
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/hook/pythonpath.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/hook/pythonpath.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/hook/pythonpath.sh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:checking '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/bin'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_node)
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/package.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/package.dsv'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/package.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/package.bash'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node/package.zsh'
+[-1794920368977565184.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/colcon-core/packages/learning_node)
+[-1794920368977565184.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[-1794920368977565184.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[-1794920368977565184.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[-1794920368977565184.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[-1794920368977565184.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[-1794920368977565184.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[-1794920368977565184.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/local_setup.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/_local_setup_util_ps1.py'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/setup.ps1'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/local_setup.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/_local_setup_util_sh.py'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/setup.sh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/local_setup.bash'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/setup.bash'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/local_setup.zsh'
+[-1794920368977565184.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/setup.zsh'

@@ -1,0 +1,38 @@
+[0.721s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_action': AMENT_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/python3.14/site-packages:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_action build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/install.log --install-scripts $base/lib/learning_action --single-version-externally-managed install_data
+[0.815s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.815s]   warnings.warn(msg)
+[0.858s] running egg_info
+[0.864s] creating ../../build/learning_action/learning_action.egg-info
+[0.864s] writing ../../build/learning_action/learning_action.egg-info/PKG-INFO
+[0.864s] writing dependency_links to ../../build/learning_action/learning_action.egg-info/dependency_links.txt
+[0.864s] writing entry points to ../../build/learning_action/learning_action.egg-info/entry_points.txt
+[0.865s] writing requirements to ../../build/learning_action/learning_action.egg-info/requires.txt
+[0.865s] writing top-level names to ../../build/learning_action/learning_action.egg-info/top_level.txt
+[0.865s] writing manifest file '../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[0.880s] reading manifest file '../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[0.880s] writing manifest file '../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[0.880s] running build
+[0.880s] running build_py
+[0.880s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/build/lib/learning_action
+[0.880s] copying learning_action/action_move_server.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/build/lib/learning_action
+[0.881s] copying learning_action/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/build/lib/learning_action
+[0.881s] copying learning_action/action_move_client.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/build/lib/learning_action
+[0.881s] running install
+[0.883s] running install_lib
+[0.890s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/python3.14/site-packages/learning_action
+[0.891s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/build/lib/learning_action/action_move_server.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/python3.14/site-packages/learning_action
+[0.891s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/build/lib/learning_action/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/python3.14/site-packages/learning_action
+[0.891s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/build/lib/learning_action/action_move_client.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/python3.14/site-packages/learning_action
+[0.891s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/python3.14/site-packages/learning_action/action_move_server.py to action_move_server.cpython-314.pyc
+[0.891s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/python3.14/site-packages/learning_action/__init__.py to __init__.cpython-314.pyc
+[0.891s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/python3.14/site-packages/learning_action/action_move_client.py to action_move_client.cpython-314.pyc
+[0.891s] running install_data
+[0.892s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/share/ament_index/resource_index/packages
+[0.892s] copying resource/learning_action -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/share/ament_index/resource_index/packages
+[0.892s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/share/learning_action
+[0.892s] running install_egg_info
+[0.899s] Copying ../../build/learning_action/learning_action.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/python3.14/site-packages/learning_action-0.0.0-py3.14.egg-info
+[0.899s] running install_scripts
+[0.943s] Installing action_move_client script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/learning_action
+[0.943s] Installing action_move_server script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_action/lib/learning_action
+[0.943s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_action/install.log'

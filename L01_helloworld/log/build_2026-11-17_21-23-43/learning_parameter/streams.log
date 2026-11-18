@@ -1,0 +1,39 @@
+[1.477s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_parameter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_parameter build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/install.log --install-scripts $base/lib/learning_parameter --single-version-externally-managed install_data
+[1.580s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.580s]   warnings.warn(msg)
+[1.634s] running egg_info
+[1.642s] creating ../../build/learning_parameter/learning_parameter.egg-info
+[1.643s] writing ../../build/learning_parameter/learning_parameter.egg-info/PKG-INFO
+[1.644s] writing dependency_links to ../../build/learning_parameter/learning_parameter.egg-info/dependency_links.txt
+[1.644s] writing entry points to ../../build/learning_parameter/learning_parameter.egg-info/entry_points.txt
+[1.644s] writing requirements to ../../build/learning_parameter/learning_parameter.egg-info/requires.txt
+[1.645s] writing top-level names to ../../build/learning_parameter/learning_parameter.egg-info/top_level.txt
+[1.645s] writing manifest file '../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[1.662s] reading manifest file '../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[1.663s] writing manifest file '../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[1.663s] running build
+[1.663s] running build_py
+[1.663s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/build/lib/learning_parameter
+[1.663s] copying learning_parameter/param_declare.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/build/lib/learning_parameter
+[1.663s] copying learning_parameter/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/build/lib/learning_parameter
+[1.663s] copying learning_parameter/param_object_detect.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/build/lib/learning_parameter
+[1.663s] running install
+[1.666s] running install_lib
+[1.675s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages/learning_parameter
+[1.675s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/build/lib/learning_parameter/param_declare.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages/learning_parameter
+[1.675s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/build/lib/learning_parameter/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages/learning_parameter
+[1.675s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/build/lib/learning_parameter/param_object_detect.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages/learning_parameter
+[1.676s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages/learning_parameter/param_declare.py to param_declare.cpython-314.pyc
+[1.676s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages/learning_parameter/__init__.py to __init__.cpython-314.pyc
+[1.676s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages/learning_parameter/param_object_detect.py to param_object_detect.cpython-314.pyc
+[1.677s] running install_data
+[1.678s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/share/ament_index/resource_index/packages
+[1.678s] copying resource/learning_parameter -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/share/ament_index/resource_index/packages
+[1.678s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/share/learning_parameter
+[1.678s] running install_egg_info
+[1.688s] Copying ../../build/learning_parameter/learning_parameter.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages/learning_parameter-0.0.0-py3.14.egg-info
+[1.689s] running install_scripts
+[1.738s] Installing param_declare script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/learning_parameter
+[1.739s] Installing param_object_detect script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/learning_parameter
+[1.739s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/install.log'
+[1.808s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_parameter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_parameter/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_parameter build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_parameter/install.log --install-scripts $base/lib/learning_parameter --single-version-externally-managed install_data

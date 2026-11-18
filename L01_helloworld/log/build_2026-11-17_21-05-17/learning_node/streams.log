@@ -1,0 +1,33 @@
+[0.515s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_node build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/install.log --install-scripts $base/lib/learning_node --single-version-externally-managed install_data
+[0.589s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.589s]   warnings.warn(msg)
+[0.626s] running egg_info
+[0.632s] writing ../../build/learning_node/learning_node.egg-info/PKG-INFO
+[0.632s] writing dependency_links to ../../build/learning_node/learning_node.egg-info/dependency_links.txt
+[0.632s] writing entry points to ../../build/learning_node/learning_node.egg-info/entry_points.txt
+[0.633s] writing requirements to ../../build/learning_node/learning_node.egg-info/requires.txt
+[0.633s] writing top-level names to ../../build/learning_node/learning_node.egg-info/top_level.txt
+[0.646s] reading manifest file '../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[0.647s] writing manifest file '../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[0.647s] running build
+[0.647s] running build_py
+[0.647s] copying learning_node/node_object.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/build/lib/learning_node
+[0.647s] copying learning_node/node_helloworld.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/build/lib/learning_node
+[0.647s] copying learning_node/node_helloworld_class.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/build/lib/learning_node
+[0.647s] copying learning_node/node_object_webcam.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/build/lib/learning_node
+[0.647s] running install
+[0.649s] running install_lib
+[0.657s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/build/lib/learning_node/node_object.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/python3.14/site-packages/learning_node
+[0.657s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/python3.14/site-packages/learning_node/node_object.py to node_object.cpython-314.pyc
+[0.658s] running install_data
+[0.658s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/share/learning_node
+[0.659s] running install_egg_info
+[0.664s] removing '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/python3.14/site-packages/learning_node-0.0.0-py3.14.egg-info' (and everything under it)
+[0.664s] Copying ../../build/learning_node/learning_node.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/python3.14/site-packages/learning_node-0.0.0-py3.14.egg-info
+[0.665s] running install_scripts
+[0.700s] Installing node_helloworld script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/learning_node
+[0.700s] Installing node_helloworld_class script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/learning_node
+[0.700s] Installing node_object script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/learning_node
+[0.700s] Installing node_object_webcam script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/learning_node
+[0.700s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/install.log'
+[0.722s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_node build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_node/install.log --install-scripts $base/lib/learning_node --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/ament_index/resource_index/package_run_dependencies/learning_pkg_c
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/ament_index/resource_index/parent_prefix_path/learning_pkg_c
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.sh
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.dsv
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/environment/path.sh
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/environment/path.dsv
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/local_setup.bash
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/local_setup.fish
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/local_setup.sh
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/local_setup.zsh
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/local_setup.dsv
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/package.dsv
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/ament_index/resource_index/packages/learning_pkg_c
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig.cmake
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig-version.cmake
+/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_pkg_c/share/learning_pkg_c/package.xml

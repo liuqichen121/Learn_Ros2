@@ -1,0 +1,2 @@
+[console_scripts]
+helloworld_node = pkg01_helloworld_py.helloworld_node:main

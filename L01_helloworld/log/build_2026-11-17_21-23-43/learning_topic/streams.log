@@ -1,0 +1,54 @@
+[0.751s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_topic': AMENT_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_topic build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/install.log --install-scripts $base/lib/learning_topic --single-version-externally-managed install_data
+[0.834s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.834s]   warnings.warn(msg)
+[0.876s] running egg_info
+[0.882s] creating ../../build/learning_topic/learning_topic.egg-info
+[0.882s] writing ../../build/learning_topic/learning_topic.egg-info/PKG-INFO
+[0.883s] writing dependency_links to ../../build/learning_topic/learning_topic.egg-info/dependency_links.txt
+[0.883s] writing entry points to ../../build/learning_topic/learning_topic.egg-info/entry_points.txt
+[0.883s] writing requirements to ../../build/learning_topic/learning_topic.egg-info/requires.txt
+[0.883s] writing top-level names to ../../build/learning_topic/learning_topic.egg-info/top_level.txt
+[0.883s] writing manifest file '../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.899s] reading manifest file '../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.900s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic
+[0.900s] copying learning_topic/topic_webcam_sub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic
+[0.900s] copying learning_topic/topic_helloworld_pub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic
+[0.902s] copying learning_topic/topic_helloworld_sub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic
+[0.902s] copying learning_topic/interface_object_pub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic
+[0.902s] copying learning_topic/topic_webcam_pub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic
+[0.902s] copying learning_topic/interface_object_sub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic
+[0.902s] copying learning_topic/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic
+[0.902s] running install
+[0.903s] running install_lib
+[0.911s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic
+[0.911s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic/topic_webcam_sub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic
+[0.911s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic/topic_helloworld_pub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic
+[0.911s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic/topic_helloworld_sub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic
+[0.911s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic/interface_object_pub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic
+[0.911s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic/topic_webcam_pub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic
+[0.912s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic/interface_object_sub.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic
+[0.912s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/build/lib/learning_topic/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic
+[0.913s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic/topic_webcam_sub.py to topic_webcam_sub.cpython-314.pyc
+[0.913s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic/topic_helloworld_pub.py to topic_helloworld_pub.cpython-314.pyc
+[0.913s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic/topic_helloworld_sub.py to topic_helloworld_sub.cpython-314.pyc
+[0.913s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic/interface_object_pub.py to interface_object_pub.cpython-314.pyc
+[0.913s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic/topic_webcam_pub.py to topic_webcam_pub.cpython-314.pyc
+[0.913s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic/interface_object_sub.py to interface_object_sub.cpython-314.pyc
+[0.914s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic/__init__.py to __init__.cpython-314.pyc
+[0.914s] running install_data
+[0.914s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/share/ament_index/resource_index/packages
+[0.914s] copying resource/learning_topic -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/share/ament_index/resource_index/packages
+[0.914s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/share/learning_topic
+[0.914s] running install_egg_info
+[0.923s] Copying ../../build/learning_topic/learning_topic.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/python3.14/site-packages/learning_topic-0.0.0-py3.14.egg-info
+[0.923s] running install_scripts
+[0.969s] Installing interface_object_pub script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/learning_topic
+[0.969s] Installing interface_object_sub script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/learning_topic
+[0.969s] Installing topic_helloworld_pub script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/learning_topic
+[0.969s] Installing topic_helloworld_sub script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/learning_topic
+[0.969s] Installing topic_webcam_pub script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/learning_topic
+[0.969s] Installing topic_webcam_sub script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic/lib/learning_topic
+[0.970s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic/install.log'

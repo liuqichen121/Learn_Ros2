@@ -1,0 +1,27 @@
+[0.823s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake /home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_topic_cpp -DCMAKE_INSTALL_PREFIX=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic_cpp
+[0.936s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.936s] [33mCMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+[0.936s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.936s]   CMake.
+[0.936s] 
+[0.936s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.936s]   to tell CMake that the project requires at least <min> but has been updated
+[0.936s]   to work with policies introduced by <max> or earlier.
+[0.936s] This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+[0.936s] to suppress it.
+[0.938s] [0m
+[0.951s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.959s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.961s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.968s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.992s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.993s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.003s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.030s] -- Found std_msgs: 5.9.3 (/opt/ros/lyrical/share/std_msgs/cmake)
+[1.035s] [31mCMake Error at CMakeLists.txt:18 (ament_target_dependencies):
+[1.035s]   Unknown CMake command "ament_target_dependencies".
+[1.035s] 
+[1.036s] [0m
+[1.036s] -- Configuring incomplete, errors occurred!
+[1.068s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_topic_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake /home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_topic_cpp -DCMAKE_INSTALL_PREFIX=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_topic_cpp

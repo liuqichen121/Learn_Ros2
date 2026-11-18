@@ -1,0 +1,33 @@
+/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/learning_cv/learning_cv.egg-info
+writing ../../build/learning_cv/learning_cv.egg-info/PKG-INFO
+writing dependency_links to ../../build/learning_cv/learning_cv.egg-info/dependency_links.txt
+writing entry points to ../../build/learning_cv/learning_cv.egg-info/entry_points.txt
+writing requirements to ../../build/learning_cv/learning_cv.egg-info/requires.txt
+writing top-level names to ../../build/learning_cv/learning_cv.egg-info/top_level.txt
+writing manifest file '../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+reading manifest file '../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+writing manifest file '../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv
+copying learning_cv/cv_bridge_test.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv
+copying learning_cv/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv
+running install
+running install_lib
+creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv
+copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv/cv_bridge_test.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv
+copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv
+byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv/cv_bridge_test.py to cv_bridge_test.cpython-314.pyc
+byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv/__init__.py to __init__.cpython-314.pyc
+running install_data
+creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/ament_index/resource_index/packages
+copying resource/learning_cv -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/ament_index/resource_index/packages
+copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv
+running install_egg_info
+Copying ../../build/learning_cv/learning_cv.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv-0.0.0-py3.14.egg-info
+running install_scripts
+Installing cv_bridge_test script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/learning_cv
+writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/install.log'

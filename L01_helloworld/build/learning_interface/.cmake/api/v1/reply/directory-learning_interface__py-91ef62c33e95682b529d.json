@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "learning_interface__py",
+		"source" : "/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface/learning_interface__py"
+	}
+}

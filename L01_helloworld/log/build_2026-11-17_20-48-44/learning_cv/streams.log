@@ -1,0 +1,35 @@
+[0.430s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_cv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_cv build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/install.log --install-scripts $base/lib/learning_cv --single-version-externally-managed install_data
+[0.498s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.498s]   warnings.warn(msg)
+[0.533s] running egg_info
+[0.540s] creating ../../build/learning_cv/learning_cv.egg-info
+[0.540s] writing ../../build/learning_cv/learning_cv.egg-info/PKG-INFO
+[0.540s] writing dependency_links to ../../build/learning_cv/learning_cv.egg-info/dependency_links.txt
+[0.540s] writing entry points to ../../build/learning_cv/learning_cv.egg-info/entry_points.txt
+[0.540s] writing requirements to ../../build/learning_cv/learning_cv.egg-info/requires.txt
+[0.540s] writing top-level names to ../../build/learning_cv/learning_cv.egg-info/top_level.txt
+[0.540s] writing manifest file '../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+[0.552s] reading manifest file '../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+[0.553s] writing manifest file '../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+[0.553s] running build
+[0.553s] running build_py
+[0.553s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv
+[0.553s] copying learning_cv/cv_bridge_test.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv
+[0.553s] copying learning_cv/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv
+[0.553s] running install
+[0.555s] running install_lib
+[0.562s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv
+[0.562s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv/cv_bridge_test.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv
+[0.562s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build/lib/learning_cv/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv
+[0.563s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv/cv_bridge_test.py to cv_bridge_test.cpython-314.pyc
+[0.563s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv/__init__.py to __init__.cpython-314.pyc
+[0.563s] running install_data
+[0.563s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/ament_index/resource_index/packages
+[0.563s] copying resource/learning_cv -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/ament_index/resource_index/packages
+[0.563s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/share/learning_cv
+[0.563s] running install_egg_info
+[0.570s] Copying ../../build/learning_cv/learning_cv.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages/learning_cv-0.0.0-py3.14.egg-info
+[0.570s] running install_scripts
+[0.606s] Installing cv_bridge_test script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/learning_cv
+[0.607s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/install.log'
+[0.628s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_cv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_cv build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_cv/install.log --install-scripts $base/lib/learning_cv --single-version-externally-managed install_data

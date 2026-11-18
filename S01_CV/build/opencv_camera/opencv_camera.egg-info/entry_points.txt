@@ -1,0 +1,3 @@
+[console_scripts]
+camera_publisher = opencv_camera.camera_publisher:main
+camera_viewer = opencv_camera.camera_viewer:main

@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/learning_urdf/learning_urdf.egg-info/PKG-INFO
+writing dependency_links to ../../build/learning_urdf/learning_urdf.egg-info/dependency_links.txt
+writing requirements to ../../build/learning_urdf/learning_urdf.egg-info/requires.txt
+writing top-level names to ../../build/learning_urdf/learning_urdf.egg-info/top_level.txt
+reading manifest file '../../build/learning_urdf/learning_urdf.egg-info/SOURCES.txt'
+writing manifest file '../../build/learning_urdf/learning_urdf.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf
+copying launch/display_xacro.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/launch
+copying launch/display.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/launch
+copying urdf/mbot_with_camera.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+copying urdf/mbot_with_kinect.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+copying urdf/mbot_with_laser.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+copying urdf/mbot_base.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+copying urdf/mbot_base.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+copying urdf/sensors/lidar_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf/sensors
+copying urdf/sensors/kinect_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf/sensors
+copying urdf/sensors/camera_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf/sensors
+copying meshes/kinect.jpg -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/meshes
+copying meshes/kinect.dae -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/meshes
+copying meshes/kinect.tga -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/meshes
+copying rviz/urdf.rviz -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/rviz
+running install_egg_info
+removing '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/lib/python3.14/site-packages/learning_urdf-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/learning_urdf/learning_urdf.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/lib/python3.14/site-packages/learning_urdf-0.0.0-py3.14.egg-info
+running install_scripts
+writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_urdf/install.log'

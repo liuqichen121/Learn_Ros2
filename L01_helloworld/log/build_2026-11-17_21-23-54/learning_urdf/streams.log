@@ -1,0 +1,36 @@
+[1.427s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_urdf build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_urdf/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_urdf/install.log --install-scripts $base/lib/learning_urdf --single-version-externally-managed install_data
+[1.528s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.528s]   warnings.warn(msg)
+[1.577s] running egg_info
+[1.586s] writing ../../build/learning_urdf/learning_urdf.egg-info/PKG-INFO
+[1.586s] writing dependency_links to ../../build/learning_urdf/learning_urdf.egg-info/dependency_links.txt
+[1.587s] writing requirements to ../../build/learning_urdf/learning_urdf.egg-info/requires.txt
+[1.587s] writing top-level names to ../../build/learning_urdf/learning_urdf.egg-info/top_level.txt
+[1.605s] reading manifest file '../../build/learning_urdf/learning_urdf.egg-info/SOURCES.txt'
+[1.606s] writing manifest file '../../build/learning_urdf/learning_urdf.egg-info/SOURCES.txt'
+[1.606s] running build
+[1.607s] running build_py
+[1.607s] running install
+[1.610s] running install_lib
+[1.621s] running install_data
+[1.621s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf
+[1.621s] copying launch/display_xacro.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/launch
+[1.621s] copying launch/display.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/launch
+[1.621s] copying urdf/mbot_with_camera.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+[1.621s] copying urdf/mbot_with_kinect.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+[1.621s] copying urdf/mbot_with_laser.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+[1.621s] copying urdf/mbot_base.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+[1.622s] copying urdf/mbot_base.urdf -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf
+[1.622s] copying urdf/sensors/lidar_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf/sensors
+[1.622s] copying urdf/sensors/kinect_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf/sensors
+[1.622s] copying urdf/sensors/camera_gazebo.xacro -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/urdf/sensors
+[1.622s] copying meshes/kinect.jpg -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/meshes
+[1.622s] copying meshes/kinect.dae -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/meshes
+[1.622s] copying meshes/kinect.tga -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/meshes
+[1.622s] copying rviz/urdf.rviz -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/share/learning_urdf/rviz
+[1.623s] running install_egg_info
+[1.634s] removing '/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/lib/python3.14/site-packages/learning_urdf-0.0.0-py3.14.egg-info' (and everything under it)
+[1.634s] Copying ../../build/learning_urdf/learning_urdf.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/lib/python3.14/site-packages/learning_urdf-0.0.0-py3.14.egg-info
+[1.634s] running install_scripts
+[1.681s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_urdf/install.log'
+[1.759s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_urdf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_urdf/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_urdf build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_urdf/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_urdf/install.log --install-scripts $base/lib/learning_urdf --single-version-externally-managed install_data

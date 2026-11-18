@@ -1,0 +1,40 @@
+[0.037s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake /home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_interface -DCMAKE_INSTALL_PREFIX=/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_interface
+[1.006s] [33mCMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+[1.007s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.007s]   CMake.
+[1.008s] 
+[1.008s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.008s]   to tell CMake that the project requires at least <min> but has been updated
+[1.008s]   to work with policies introduced by <max> or earlier.
+[1.008s] This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+[1.008s] to suppress it.
+[1.008s] [0m
+[1.008s] -- The C compiler identification is GNU 15.2.0
+[1.008s] -- The CXX compiler identification is GNU 15.2.0
+[1.008s] -- Detecting C compiler ABI info
+[1.009s] -- Detecting C compiler ABI info - done
+[1.009s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.009s] -- Detecting C compile features
+[1.009s] -- Detecting C compile features - done
+[1.009s] -- Detecting CXX compiler ABI info
+[1.009s] -- Detecting CXX compiler ABI info - done
+[1.009s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.009s] -- Detecting CXX compile features
+[1.009s] -- Detecting CXX compile features - done
+[1.009s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.009s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[1.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.009s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[1.009s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[1.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.529s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[1.558s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[1.559s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.577s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.578s] -- Added test 'lint_cmake' to check CMake code style
+[1.579s] -- Added test 'xmllint' to check XML markup files
+[1.580s] -- Configuring done (1.5s)
+[1.601s] -- Generating done (0.0s)
+[1.610s] -- Build files have been written to: /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface

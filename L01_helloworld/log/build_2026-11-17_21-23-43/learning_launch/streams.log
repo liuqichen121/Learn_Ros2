@@ -1,0 +1,42 @@
+[1.487s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_launch': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_launch build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/install.log --install-scripts $base/lib/learning_launch --single-version-externally-managed install_data
+[1.592s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.592s]   warnings.warn(msg)
+[1.646s] running egg_info
+[1.655s] creating ../../build/learning_launch/learning_launch.egg-info
+[1.655s] writing ../../build/learning_launch/learning_launch.egg-info/PKG-INFO
+[1.655s] writing dependency_links to ../../build/learning_launch/learning_launch.egg-info/dependency_links.txt
+[1.655s] writing requirements to ../../build/learning_launch/learning_launch.egg-info/requires.txt
+[1.655s] writing top-level names to ../../build/learning_launch/learning_launch.egg-info/top_level.txt
+[1.656s] writing manifest file '../../build/learning_launch/learning_launch.egg-info/SOURCES.txt'
+[1.674s] reading manifest file '../../build/learning_launch/learning_launch.egg-info/SOURCES.txt'
+[1.674s] writing manifest file '../../build/learning_launch/learning_launch.egg-info/SOURCES.txt'
+[1.674s] running build
+[1.674s] running build_py
+[1.674s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/build/lib/learning_launch
+[1.674s] copying learning_launch/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/build/lib/learning_launch
+[1.674s] running install
+[1.678s] running install_lib
+[1.688s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages/learning_launch
+[1.688s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/build/lib/learning_launch/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages/learning_launch
+[1.689s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages/learning_launch/__init__.py to __init__.cpython-314.pyc
+[1.689s] running install_data
+[1.689s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/ament_index/resource_index/packages
+[1.689s] copying resource/learning_launch -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/ament_index/resource_index/packages
+[1.689s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch
+[1.689s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+[1.689s] copying launch/parameters_nonamespace.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+[1.690s] copying launch/parameters.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+[1.690s] copying launch/simple.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+[1.690s] copying launch/rviz.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+[1.690s] copying launch/namespaces.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+[1.690s] copying launch/remapping.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+[1.690s] copying launch/parameters_yaml.launch.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/launch
+[1.690s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/config
+[1.690s] copying config/turtlesim.yaml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/config
+[1.690s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/rviz
+[1.690s] copying rviz/turtle_rviz.rviz -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/share/learning_launch/rviz
+[1.690s] running install_egg_info
+[1.699s] Copying ../../build/learning_launch/learning_launch.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages/learning_launch-0.0.0-py3.14.egg-info
+[1.699s] running install_scripts
+[1.746s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/install.log'
+[1.830s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/learning_launch' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_launch/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_launch build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_launch/install.log --install-scripts $base/lib/learning_launch --single-version-externally-managed install_data

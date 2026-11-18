@@ -1,0 +1,35 @@
+[0.312s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg01_helloworld_py build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/install.log --install-scripts $base/lib/pkg01_helloworld_py --single-version-externally-managed install_data
+[0.415s] running egg_info
+[0.420s] creating ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info
+[0.420s] writing ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/PKG-INFO
+[0.420s] writing dependency_links to ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/dependency_links.txt
+[0.420s] writing entry points to ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/entry_points.txt
+[0.421s] writing requirements to ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/requires.txt
+[0.421s] writing top-level names to ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/top_level.txt
+[0.421s] writing manifest file '../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/SOURCES.txt'
+[0.433s] reading manifest file '../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/SOURCES.txt'
+[0.434s] writing manifest file '../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info/SOURCES.txt'
+[0.434s] running build
+[0.434s] running build_py
+[0.434s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py
+[0.434s] copying pkg01_helloworld_py/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py
+[0.434s] copying pkg01_helloworld_py/helloworld_node.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py
+[0.434s] copying pkg01_helloworld_py/py.typed -> /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py
+[0.434s] running install
+[0.436s] running install_lib
+[0.442s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages/pkg01_helloworld_py
+[0.442s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py/py.typed -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages/pkg01_helloworld_py
+[0.442s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py/__init__.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages/pkg01_helloworld_py
+[0.442s] copying /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build/lib/pkg01_helloworld_py/helloworld_node.py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages/pkg01_helloworld_py
+[0.442s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages/pkg01_helloworld_py/__init__.py to __init__.cpython-314.pyc
+[0.442s] byte-compiling /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages/pkg01_helloworld_py/helloworld_node.py to helloworld_node.cpython-314.pyc
+[0.443s] running install_data
+[0.443s] creating /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/ament_index/resource_index/packages
+[0.443s] copying resource/pkg01_helloworld_py -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/ament_index/resource_index/packages
+[0.443s] copying package.xml -> /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/share/pkg01_helloworld_py
+[0.443s] running install_egg_info
+[0.449s] Copying ../../build/pkg01_helloworld_py/pkg01_helloworld_py.egg-info to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages/pkg01_helloworld_py-0.0.0-py3.14.egg-info
+[0.449s] running install_scripts
+[0.480s] Installing helloworld_node script to /home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/pkg01_helloworld_py
+[0.480s] writing list of installed files to '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/install.log'
+[0.497s] Invoked command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/src/pkg01_helloworld_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg01_helloworld_py build --build-base /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/build install --record /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_py/install.log --install-scripts $base/lib/pkg01_helloworld_py --single-version-externally-managed install_data

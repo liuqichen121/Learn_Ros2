@@ -1,0 +1,4 @@
+[1.083s] Invoking command in '/home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_node:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/learning_cv:/home/liuqichen121/Learn_Ros2/L01_helloworld/install/pkg01_helloworld_py:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --build /home/liuqichen121/Learn_Ros2/L01_helloworld/build/pkg01_helloworld_cpp -- -j32 -l32
+[1.108s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld_node.dir/src/helloworld_node.cpp.o[0m
+[3.071s] [100%] [1m[32mLinking CXX executable helloworld_node[0m
+[3.129s] [100%] Built target helloworld_node

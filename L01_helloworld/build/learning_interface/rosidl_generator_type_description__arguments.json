@@ -1,0 +1,16 @@
+{
+  "package_name": "learning_interface",
+  "output_dir": "/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface/rosidl_generator_type_description/learning_interface",
+  "idl_tuples": [
+    "/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface/rosidl_adapter/learning_interface:msg/ObjectPosition.idl",
+    "/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface/rosidl_adapter/learning_interface:srv/AddTwoInts.idl",
+    "/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface/rosidl_adapter/learning_interface:srv/GetObjectPosition.idl",
+    "/home/liuqichen121/Learn_Ros2/L01_helloworld/build/learning_interface/rosidl_adapter/learning_interface:action/MoveCircle.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/",
+    "unique_identifier_msgs:/opt/ros/lyrical/share/unique_identifier_msgs/"
+  ]
+}
